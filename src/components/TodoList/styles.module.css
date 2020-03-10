@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  background-color: #262e4c;
+  border-bottom: 1px solid #1c2340;
+  color: #b1b2c9;
+  padding: 1rem;
+  position: relative;
+}
+
+.removeButton {
+  position: absolute;
+  right: 1rem;
+  top: 0.9rem;
+  color: white;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: underline;
+  background: 0;
+  appearance: none;
+  border: 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
