@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     axios
       .get("https://jsonplaceholder.typicode.com/todos")
-      .then(({ data }) => setTodos(data.slice(0, 10)));
+      .then(({ data }) => setTodos(data.slice(0, 10).concat(todos)));
   }, []);
 
   const addTodo = todo => {
